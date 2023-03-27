@@ -143,7 +143,8 @@ namespace alxnbl.OneNoteMdExporter.Services.Export
             {
                 Title = page.Title,
                 Created = page.CreationDate,
-                Updated = page.LastModificationDate
+                Updated = page.LastModificationDate,
+                Alias = "Test"
             };
 
             var serializer = new SerializerBuilder()
